@@ -1,0 +1,12 @@
+import getpass
+from IPython.display import Image, display
+
+password = getpass.getpass("Enter your password - ")
+
+if password=="Birthday":
+  # Display from a local file or a URL
+  # display(Image(filename="animation.gif")) 
+  # OR
+  display(Image(url="https://cdn.pixabay.com/animation/2025/01/05/02/42/02-42-10-243_512.gif"))  #To get the URL - left click on the image and select the option "Copy image address"
+else :
+  print("Incorrect Password!") 
